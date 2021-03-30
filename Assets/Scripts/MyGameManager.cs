@@ -8,6 +8,8 @@ public class MyGameManager : MonoBehaviour
     public GameObject mainCanvas;
     public GameObject gameoverCanvas;
     private Health healthPlayer;
+
+    static public int score = 0;
     public enum GameStates
     {
         Playing,
@@ -37,6 +39,9 @@ public class MyGameManager : MonoBehaviour
                     mainCanvas.SetActive(false);
                     gameoverCanvas.SetActive(true);
                 }
+                break;
+            case GameStates.GameOver:
+                score = 0;
                 break;
         }
 

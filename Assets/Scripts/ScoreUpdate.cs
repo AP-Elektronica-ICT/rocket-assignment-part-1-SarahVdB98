@@ -3,11 +3,13 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class Disappear : MonoBehaviour
+public class ScoreUpdate : MonoBehaviour
 {
+    private static int counter = 0;
     // Start is called before the first frame update
     void Start()
     {
+        
     }
 
     // Update is called once per frame
@@ -15,14 +17,12 @@ public class Disappear : MonoBehaviour
     {
         
     }
-
     private void OnTriggerEnter(Collider other)
     {
         if (other.gameObject.tag == "Player")
         {
-            Destroy(gameObject);
-            MyGameManager.score++;
-            GameObject.FindGameObjectWithTag("score").GetComponent<Text>().text = MyGameManager.score.ToString();
+            counter++;
+            MyGameManager.score = counter;
         }
     }
 }

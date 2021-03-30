@@ -755,7 +755,7 @@ GameObject:
   - component: {fileID: 668579824}
   m_Layer: 0
   m_Name: Cylinder (1)
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -944,7 +944,7 @@ GameObject:
   - component: {fileID: 747963237}
   m_Layer: 0
   m_Name: Capsule
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1201,7 +1201,7 @@ MeshCollider:
   m_GameObject: {fileID: 1015417692}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 0
+  m_Enabled: 1
   serializedVersion: 4
   m_Convex: 0
   m_CookingOptions: 30
@@ -1667,7 +1667,7 @@ GameObject:
   - component: {fileID: 1222539682}
   m_Layer: 0
   m_Name: Cylinder (2)
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2032,7 +2032,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7fbfb97059091b34fb8b939639a54b89, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  counter: 1
 --- !u!114 &1568484904
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2129,7 +2128,7 @@ GameObject:
   - component: {fileID: 1674229084}
   m_Layer: 0
   m_Name: Cylinder (3)
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
